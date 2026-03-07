@@ -75,9 +75,9 @@ a{color:inherit; text-decoration:none}
 }
 .hero::before{
   content:"";
-  position:absolute; inset:0;
-  background:
-    url("assets/img/hero.jpg");
+  position:absolute;
+  inset:0;
+  background:url("../img/hero.jpg");
   background-size:cover;
   background-position:center;
   transform:scale(1.03);
