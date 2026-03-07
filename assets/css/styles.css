@@ -34,9 +34,10 @@ a{color:inherit; text-decoration:none}
 .brand{
   font-weight:700;
   letter-spacing:.08em;
-  font-size:24px;
+  font-size:18px;
   color:#ffffff;
   white-space:nowrap;
+  margin-right:40px;
 }
 .navlinks{
   display:flex;
