@@ -584,8 +584,8 @@ section{
 
 .theme-block h3{
   margin:0 0 14px;
-  font-size:24px;
-  color:#1d365d;
+  font-size:15px;
+  color:#080c13;
   font-weight:700;
 }
 
@@ -618,7 +618,7 @@ section{
   }
 
   .theme-block h3{
-    font-size:21px;
+    font-size:15px;
   }
 
   .theme-block p,
