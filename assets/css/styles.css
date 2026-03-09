@@ -524,46 +524,44 @@ a{color:inherit; text-decoration:none}
    Organizing Institutions
    ========================= */
 .org-institutions{
-  padding:90px 0;
-  background:#f6f8fb;
+  padding:100px 0 80px;
+  background:linear-gradient(180deg,#f4f7ff,#eaf1ff);
+  text-align:center;
 }
 
-.org-title{
-  text-align:center;
-  font-size:34px;
-  letter-spacing:.06em;
-  color:#2c5d8a;
-  margin-bottom:70px;
+.org-section-title{
+  font-size:30px;
+  letter-spacing:.05em;
+  color:#01050d;
+  margin-bottom:50px;
 }
 
 .institution-grid{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:50px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:60px;
+  align-items:center;
+  max-width:900px;
+  margin:0 auto;
 }
 
-/* 固定框大小 */
-
 .institution-item{
-  width:260px;
-  height:120px;
-  background:white;
-
+  padding:10px 20px;
   display:flex;
   align-items:center;
   justify-content:center;
-
-  border-radius:12px;
-  box-shadow:0 6px 18px rgba(0,0,0,0.06);
 }
 
-/* logo 自适应 */
-
 .institution-item img{
-  max-height:80px;
-  max-width:200px;
+  max-height:90px;
+  width:auto;
   object-fit:contain;
+}
+
+.institution-item:hover img{
+  filter:none;
+  opacity:1;
+  transform:scale(1.05);
 }
 /* Footer contact section */
 
