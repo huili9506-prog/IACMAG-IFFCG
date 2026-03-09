@@ -569,26 +569,20 @@ a{color:inherit; text-decoration:none}
 }
 /* Footer contact section */
 
-.footer-contact{
-  background:#446195;
-  color:#ffffff;
-  padding:50px 0;
-  text-align:center;
-}
-
-.footer-contact a{
-  color:#8fb8ff;
-}
-
 .footer{
-  background:#0b1220;
-  color:rgba(255,255,255,0.85);
-  padding:50px 0;
+  background:#4f6ea1;
+  color:white;
+  padding:40px 0;
   text-align:center;
+}
+
+.footer-contact p{
+  margin:8px 0;
+  font-size:14px;
 }
 
 .footer a{
-  color:#8fb8ff;
+  color:#a9d0ff;
 }
 
 section{
