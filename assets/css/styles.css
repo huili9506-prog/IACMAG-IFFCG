@@ -525,14 +525,20 @@ a{color:inherit; text-decoration:none}
 
 /* Logo card */
 .institution-card{
+  width:420px;
+  height:420px;
   background:#f6f7f9;
-  border-radius:14px;
-  height:140px;              /* 固定框高度 */
+  border-radius:12px;
+
   display:flex;
   align-items:center;
   justify-content:center;
-  padding:20px;
-  transition:all .25s ease;
+}
+
+.institution-card img{
+  width:90%;
+  height:90%;
+  object-fit:contain;   /* 保持比例缩放 */
 }
 
 .institution-card:hover{
