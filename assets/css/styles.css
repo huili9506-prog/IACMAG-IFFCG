@@ -546,16 +546,20 @@ a{color:inherit; text-decoration:none}
 }
 
 .institution-item{
-  padding:10px 20px;
   display:flex;
-  align-items:center;
   justify-content:center;
+  align-items:center;
 }
 
 .institution-item img{
-  max-height:90px;
-  width:auto;
+  max-height:70px;
+  max-width:200px;
   object-fit:contain;
+
+  filter:grayscale(100%);
+  opacity:0.7;
+
+  transition:all .35s ease;
 }
 
 .institution-item:hover img{
@@ -565,21 +569,7 @@ a{color:inherit; text-decoration:none}
 }
 /* Footer contact section */
 
-.footer{
-  background:#4f6ea1;
-  color:white;
-  padding:40px 0;
-  text-align:center;
-}
 
-.footer-contact p{
-  margin:8px 0;
-  font-size:14px;
-}
-
-.footer a{
-  color:#a9d0ff;
-}
 
 section{
   margin:0;
