@@ -269,7 +269,7 @@ a{color:inherit; text-decoration:none}
 /* Body */
 
 .org-card-body{
-  padding:5px 20px 0px;              /* 内边距更大 */
+  padding:8px 25px 0px;              /* 内边距更大 */
 }
 
 /* Member list */
@@ -284,7 +284,7 @@ a{color:inherit; text-decoration:none}
 .org-list li{
   position:relative;
   padding:14px 0 14px 26px;
-  font-size:16px;            /* 名字更大 */
+  font-size:18px;            /* 名字更大 */
   color:#24324d;
   border-bottom:1px solid rgba(0,0,0,0.06);
   white-space:nowrap;
