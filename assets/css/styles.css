@@ -514,32 +514,39 @@ a{color:inherit; text-decoration:none}
   letter-spacing:.06em;
 }
 
+/* Institutions grid */
 .institution-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:60px;
-  align-items:center;
-  max-width:900px;
-  margin:0 auto;
+  grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+  gap:40px;
+  max-width:1100px;
+  margin:40px auto 0;
 }
 
-.institution-item{
+/* Logo card */
+.institution-card{
+  background:#f6f7f9;
+  border-radius:14px;
+  height:140px;              /* 固定框高度 */
   display:flex;
-  justify-content:center;
   align-items:center;
+  justify-content:center;
+  padding:20px;
+  transition:all .25s ease;
 }
 
-.institution-item img{
-
-  object-fit:contain;
-  opacity:1.0;
-  transition:all .35s ease;
+.institution-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
-.institution-item:hover img{
-  filter:none;
-  opacity:1;
-  transform:scale(1.05);
+/* Logo image */
+.institution-card img{
+  max-width:85%;
+  max-height:80px;           /* 控制logo大小 */
+  width:auto;
+  height:auto;
+  object-fit:contain;        /* 不拉伸 */
 }
 /* Footer contact section */
 
