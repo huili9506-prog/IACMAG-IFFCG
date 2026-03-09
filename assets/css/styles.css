@@ -647,3 +647,12 @@ section{
 .org-page ul{
   margin:0 0 20px 22px;
 }
+
+.org-page a{
+color:#2f84ff;
+text-decoration:none;
+}
+
+.org-page a:hover{
+text-decoration:underline;
+}
