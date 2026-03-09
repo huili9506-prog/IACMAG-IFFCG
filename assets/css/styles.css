@@ -575,6 +575,7 @@ section{
 
 .theme-block{
   background:#7d9fdf;
+  opacity:0.7;
   border:1px solid rgba(0,0,0,0.06);
   border-radius:16px;
   padding:28px 32px;
